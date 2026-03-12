@@ -1,0 +1,78 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ====================
+# NODE.JS / BACKEND
+**/backend/node_modules/
+**/backend/package-lock.json
+**/backend/yarn.lock
+**/backend/dist/
+**/backend/build/
+**/backend/*.log
+**/backend/.env
+**/backend/.env.local
+**/backend/.env.development.local
+**/backend/.env.test.local
+**/backend/.env.production.local
+**/backend/coverage/
+**/backend/.nyc_output/
+
+# ====================
+# PYTHON / SCRAPER
+**/scraper/__pycache__/
+**/scraper/*.pyc
+**/scraper/.pytest_cache/
+**/scraper/.coverage
+**/scraper/htmlcov/
+**/scraper/venv/
+**/scraper/env/
+**/scraper/.venv/
+**/scraper/.env/
+**/scraper/.python-version
+**/scraper/**/*.egg-info/
+**/scraper/**/*.egg
+**/scraper/dist/
+**/scraper/build/

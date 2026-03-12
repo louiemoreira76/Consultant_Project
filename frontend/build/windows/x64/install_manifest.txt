@@ -1,0 +1,11 @@
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/data/icudtl.dat
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/flutter_windows.dll
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/data/flutter_assets/NativeAssetsManifest.json
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
+C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/runner/Debug/data/flutter_assets/shaders/stretch_effect.frag
