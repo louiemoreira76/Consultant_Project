@@ -45,6 +45,44 @@ app.*.map.json
 /android/app/release
 
 # ====================
+# FRONTEND / VITE + PNPM
+node_modules/
+pnpm-lock.yaml      # se você quiser ignorar o lock file (geralmente commita-se)
+# pnpm-lock.yaml    # descomente se preferir commitar
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Vite cache
+.vite/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+Thumbs.db
+
+# ====================
 # NODE.JS / BACKEND
 **/backend/node_modules/
 **/backend/package-lock.json
