@@ -20,17 +20,17 @@ const engagementData = [
 function Dashboard() {
   return (
     <div className="min-h-screen bg-[#F0F4F8] font-[Inter,sans-serif]">
-      {/* Sidebar */}
+      {/* Sidebar OKKKKKKKKKKKKKKKKKKKKK*/ }
       <Sidebar activeItem="Dashboard" />
 
       {/* Main Content */}
       <div className="ml-64">
-        {/* Header */}
+        {/* Header okkkkkkkkkkkkkkk*/}
         <Header />
 
         {/* Main Content Area */}
         <main className="p-8">
-          {/* KPI Cards */}
+          {/* KPI Cards okkkkkkkkkkkk*/}
           <div className="grid grid-cols-4 gap-6 mb-8">
             <KPICard
               title="Total de Mentorados"
@@ -65,12 +65,12 @@ function Dashboard() {
 
           {/* Main Content Grid */}
           <div className="grid grid-cols-3 gap-6 mb-8">
-            {/* Student Table - Takes 2 columns */}
+            {/* Student Table - Takes 2 columns okkkkkkkkkkkkkkkkkkkkkkkkkkkkk*/}
             <div className="col-span-2">
               <StudentTable />
             </div>
 
-            {/* Trail Cards - Takes 1 column */}
+            {/* Trail Cards - Takes 1 column okkkkkkkkkkkkkk*/}
             <div>
               <TrailCards />
             </div>

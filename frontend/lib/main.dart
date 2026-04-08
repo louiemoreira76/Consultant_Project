@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/clientes_screen.dart';
+import 'screens/Dashboard.dart';
 
 void main() => runApp(const App());
 
@@ -11,7 +12,7 @@ class App extends StatelessWidget {
       title: 'Consultora',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorSchemeSeed: const Color(0xFF1A56DB), useMaterial3: true),
-      home: const ClientesScreen(),
+      home: const Dashboard(),
     );
   }
 }
