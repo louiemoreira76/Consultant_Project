@@ -1,5 +1,5 @@
-import { Sidebar } from '../../backoffice/components/Sidebar';
-import { Header } from '../../backoffice/components/Header';
+import { Sidebar } from '../../ui/components/Sidebar';
+import { Header } from '../../ui/components/Header';
 import { LucideIcon } from 'lucide-react';
 
 interface PlaceholderPageProps {

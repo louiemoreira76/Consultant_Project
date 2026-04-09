@@ -1,28 +1,5 @@
 import 'package:flutter/material.dart';
-
-enum ContentType { video, pdf }
-
-class Content {
-  final String id;
-  final ContentType type;
-  final String title;
-  final String description;
-  final String uploadDate;
-  final List<double> engagementData;
-  final int views;
-  final String dropoffPoint;
-
-  const Content({
-    required this.id,
-    required this.type,
-    required this.title,
-    required this.description,
-    required this.uploadDate,
-    required this.engagementData,
-    required this.views,
-    required this.dropoffPoint,
-  });
-}
+import '../models/models.dart';
 
 class AddContentModal extends StatefulWidget {
   final ContentType contentType;

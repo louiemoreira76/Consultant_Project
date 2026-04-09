@@ -26,8 +26,12 @@ class KPICard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Color primaryColor = alert ? Colors.red.shade600 : const Color(0xFF0A2540);
-    final Color iconBgColor = alert ? Colors.red.shade50 : const Color(0xFFF0F4F8);
+    final Color primaryColor = alert
+        ? Colors.red.shade600
+        : const Color(0xFF0A2540);
+    final Color iconBgColor = alert
+        ? Colors.red.shade50
+        : const Color(0xFFF0F4F8);
 
     return Container(
       decoration: BoxDecoration(
@@ -83,11 +87,7 @@ class KPICard extends StatelessWidget {
                   color: iconBgColor,
                   borderRadius: BorderRadius.circular(8),
                 ),
-                child: Icon(
-                  icon,
-                  size: 24,
-                  color: primaryColor,
-                ),
+                child: Icon(icon, size: 24, color: primaryColor),
               ),
             ],
           ),
@@ -124,11 +124,11 @@ class KPICard extends StatelessWidget {
 
     return Row(
       children: [
-        Text(
-          '$arrowSymbol $trendValue',
-          style: TextStyle(
-            fontSize: 14,
-            color: color,
+        Flexible(
+          child: Text(
+            '$arrowSymbol $trendValue',
+            style: TextStyle(fontSize: 14, color: color),
+            overflow: TextOverflow.ellipsis,
           ),
         ),
       ],

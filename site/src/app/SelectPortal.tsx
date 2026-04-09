@@ -1,5 +1,5 @@
-import { useNavigate } from 'react-router-dom';
-import { Shield, GraduationCap } from 'lucide-react';
+import { useNavigate } from 'react-router';
+import { GraduationCap } from 'lucide-react';
 
 function SelectPortal() {
   const navigate = useNavigate();
@@ -15,34 +15,11 @@ function SelectPortal() {
           <p className="text-white/70 text-lg">Plataforma de Mentoria Premium</p>
         </div>
 
-        {/* Portal Selection */}
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Admin Portal */}
-          <button
-            onClick={() => navigate('/admin/dashboard')}
-            className="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all hover:-translate-y-1"
-          >
-            <div className="flex flex-col items-center text-center">
-              <div className="w-20 h-20 bg-[#0A2540] rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#D4AF37] transition-colors">
-                <Shield className="w-10 h-10 text-white" />
-              </div>
-              <h2 className="text-2xl font-bold text-[#0A2540] mb-3">
-                Área Administrativa
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Gerencie trilhas, monitore alunos e acesse relatórios completos
-              </p>
-              <div className="flex items-center gap-2 text-[#0A2540] font-medium group-hover:text-[#D4AF37] transition-colors">
-                <span>Acessar Backoffice</span>
-                <span className="group-hover:translate-x-1 transition-transform">→</span>
-              </div>
-            </div>
-          </button>
-
-          {/* Student Portal */}
+        {/* Portal Selection - Centralizado */}
+        <div className="flex justify-center">
           <button
             onClick={() => navigate('/app/home')}
-            className="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all hover:-translate-y-1"
+            className="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all hover:-translate-y-1 w-full md:w-1/2 lg:w-2/5"
           >
             <div className="flex flex-col items-center text-center">
               <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl flex items-center justify-center mb-6 group-hover:from-[#D4AF37] group-hover:to-[#C49F2F] transition-all">

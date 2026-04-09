@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-import { StudentSidebar } from './StudentSidebar';
 import { StudentHeader } from './StudentHeader';
 
 interface FrontofficeLayoutProps {
@@ -10,15 +9,11 @@ interface FrontofficeLayoutProps {
 export function FrontofficeLayout({ children, activeItem }: FrontofficeLayoutProps) {
   return (
     <div className="min-h-screen bg-gray-50 font-[Inter,sans-serif]">
-      <StudentSidebar activeItem={activeItem} />
+      <StudentHeader />
 
-      <div className="ml-64">
-        <StudentHeader />
-
-        <main className="p-8">
-          {children}
-        </main>
-      </div>
+      <main className="p-8 max-w-7xl mx-auto">
+        {children}
+      </main>
     </div>
   );
 }

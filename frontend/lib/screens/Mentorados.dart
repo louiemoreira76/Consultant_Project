@@ -17,12 +17,10 @@ class MentoradosPage extends StatelessWidget {
             width: 256,
             child: Sidebar(
               activeItem: 'Mentorados',
-              onNavigate: (String route) {
-                // TODO: implementar navegação entre telas
-                debugPrint('Navegar para: $route');
-                // Exemplo de navegação usando Navigator (se estiver usando rotas nomeadas)
-                // Navigator.pushReplacementNamed(context, '/$route');
-              },
+onNavigate: (route) {
+  debugPrint('Navegar para: $route');
+  Navigator.pushReplacementNamed(context, route);
+},
               onLogout: () {
                 // TODO: implementar logout (ex: voltar para tela de login)
                 debugPrint('Logout solicitado');

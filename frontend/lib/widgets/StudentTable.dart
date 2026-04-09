@@ -143,9 +143,8 @@ class StudentTable extends StatelessWidget {
           // Tabela rolável horizontalmente
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: SizedBox(
+            child: IntrinsicWidth(
               // Largura mínima para evitar quebras em telas pequenas
-              width: 1000, // Ajuste conforme necessidade
               child: Column(
                 children: [
                   // Cabeçalho da tabela

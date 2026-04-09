@@ -1,18 +1,5 @@
 import 'package:flutter/material.dart';
-
-class Trail {
-  final String id;
-  final String name;
-  final String description;
-  final int contentCount;
-
-  const Trail({
-    required this.id,
-    required this.name,
-    required this.description,
-    required this.contentCount,
-  });
-}
+import '../models/models.dart'; 
 
 class AddTrailModal extends StatefulWidget {
   final Trail? editingTrail;

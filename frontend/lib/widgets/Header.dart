@@ -9,42 +9,42 @@ class Header extends StatelessWidget implements PreferredSizeWidget {
       decoration: const BoxDecoration(
         color: Colors.white,
         border: Border(
-          bottom: BorderSide(color: Color(0xFFE5E7EB), width: 1), // border-gray-200
+          bottom: BorderSide(color: Color(0xFFE5E7EB), width: 1),
         ),
       ),
-      padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16), // px-8 py-4
+      padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          // Title
+          // Título
           const Text(
             'Gestão Estratégica de Mentorados',
             style: TextStyle(
-              fontSize: 24, // text-2xl
-              fontWeight: FontWeight.w600, // font-semibold
-              color: Color(0xFF0A2540), // text-[#0A2540]
+              fontSize: 24,
+              fontWeight: FontWeight.w600,
+              color: Color(0xFF0A2540),
             ),
           ),
 
-          // Actions (Search, Bell, Button)
+          // Ações (busca, sino, botão)
           Row(
             children: [
-              // Search Bar
+              // Barra de pesquisa com largura fixa
               SizedBox(
-                width: 320, // w-80
+                width: 320,
                 child: TextField(
                   decoration: InputDecoration(
                     hintText: 'Buscar...',
                     prefixIcon: const Icon(
                       Icons.search,
                       size: 16,
-                      color: Color(0xFF9CA3AF), // text-gray-400
+                      color: Color(0xFF9CA3AF),
                     ),
                     contentPadding: const EdgeInsets.symmetric(vertical: 8),
                     filled: true,
-                    fillColor: const Color(0xFFF9FAFB), // bg-gray-50
+                    fillColor: const Color(0xFFF9FAFB),
                     border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(8), // rounded-lg
+                      borderRadius: BorderRadius.circular(8),
                       borderSide: const BorderSide(color: Color(0xFFE5E7EB)),
                     ),
                     enabledBorder: OutlineInputBorder(
@@ -63,9 +63,9 @@ class Header extends StatelessWidget implements PreferredSizeWidget {
                   style: const TextStyle(fontSize: 14),
                 ),
               ),
-              const SizedBox(width: 16), // gap-4
+              const SizedBox(width: 16),
 
-              // Notification Bell with indicator
+              // Sino de notificações com indicador
               Stack(
                 clipBehavior: Clip.none,
                 children: [
@@ -74,7 +74,7 @@ class Header extends StatelessWidget implements PreferredSizeWidget {
                     icon: const Icon(
                       Icons.notifications_outlined,
                       size: 20,
-                      color: Color(0xFF4B5563), // text-gray-600
+                      color: Color(0xFF4B5563),
                     ),
                     style: IconButton.styleFrom(
                       padding: const EdgeInsets.all(8),
@@ -97,27 +97,27 @@ class Header extends StatelessWidget implements PreferredSizeWidget {
                   ),
                 ],
               ),
-              const SizedBox(width: 16), // gap-4
+              const SizedBox(width: 16),
 
-              // Primary Action Button
+              // Botão de ação primária
               ElevatedButton.icon(
                 onPressed: () {},
                 icon: const Icon(Icons.add, size: 20),
                 label: const Text('Novo Conteúdo'),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFFD4AF37), // bg-[#D4AF37]
-                  foregroundColor: const Color(0xFF0A2540), // text-[#0A2540]
+                  backgroundColor: const Color(0xFFD4AF37),
+                  foregroundColor: const Color(0xFF0A2540),
                   padding: const EdgeInsets.symmetric(
-                    horizontal: 20, // px-5
-                    vertical: 10, // py-2.5
+                    horizontal: 20,
+                    vertical: 10,
                   ),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8), // rounded-lg
+                    borderRadius: BorderRadius.circular(8),
                   ),
                   elevation: 1,
                   shadowColor: Colors.black12,
                   textStyle: const TextStyle(
-                    fontWeight: FontWeight.w500, // font-medium
+                    fontWeight: FontWeight.w500,
                     fontSize: 14,
                   ),
                 ),
@@ -130,5 +130,5 @@ class Header extends StatelessWidget implements PreferredSizeWidget {
   }
 
   @override
-  Size get preferredSize => const Size.fromHeight(96); // Ajuste conforme padding + conteúdo
+  Size get preferredSize => const Size.fromHeight(96);
 }

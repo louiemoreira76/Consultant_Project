@@ -56,6 +56,8 @@ events:
         - "C:\\Users\\luis\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin"
         - "C:\\Users\\luis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\luis\\.bun\\bin"
+        - "c:\\Users\\luis\\.vscode-insiders\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin\\mingit\\cmd"
   -
     kind: "message-v1"
@@ -73,7 +75,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 18.4.0+6e61e96ac para .NET Framework
-      Compila├º├úo de 12/03/2026 17:03:25 iniciada.
+      Compila├º├úo de 08/04/2026 17:20:23 iniciada.
       
       Projeto "C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\4.2.3-msvc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -102,7 +104,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:02.02
+      Tempo Decorrido 00:00:01.04
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -155,6 +157,8 @@ events:
       - "C:/Users/luis/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/luis/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
       - "C:/Users/luis/AppData/Roaming/npm/"
+      - "C:/Users/luis/.bun/bin/"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
@@ -182,6 +186,8 @@ events:
         - "C:\\Users\\luis\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin"
         - "C:\\Users\\luis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\luis\\.bun\\bin"
+        - "c:\\Users\\luis\\.vscode-insiders\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin\\mingit\\cmd"
   -
     kind: "find-v1"
@@ -226,6 +232,8 @@ events:
       - "C:/Users/luis/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/luis/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
       - "C:/Users/luis/AppData/Roaming/npm/"
+      - "C:/Users/luis/.bun/bin/"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
@@ -291,6 +299,12 @@ events:
       - "C:/Users/luis/AppData/Roaming/npm/lld-link.com"
       - "C:/Users/luis/AppData/Roaming/npm/lld-link.exe"
       - "C:/Users/luis/AppData/Roaming/npm/lld-link"
+      - "C:/Users/luis/.bun/bin/lld-link.com"
+      - "C:/Users/luis/.bun/bin/lld-link.exe"
+      - "C:/Users/luis/.bun/bin/lld-link"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/lld-link.com"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/lld-link.exe"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/lld-link"
@@ -318,6 +332,8 @@ events:
         - "C:\\Users\\luis\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin"
         - "C:\\Users\\luis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\luis\\.bun\\bin"
+        - "c:\\Users\\luis\\.vscode-insiders\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin\\mingit\\cmd"
   -
     kind: "find-v1"
@@ -360,6 +376,8 @@ events:
       - "C:/Users/luis/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/luis/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
       - "C:/Users/luis/AppData/Roaming/npm/"
+      - "C:/Users/luis/.bun/bin/"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
@@ -387,6 +405,8 @@ events:
         - "C:\\Users\\luis\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin"
         - "C:\\Users\\luis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\luis\\.bun\\bin"
+        - "c:\\Users\\luis\\.vscode-insiders\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin\\mingit\\cmd"
   -
     kind: "find-v1"
@@ -429,6 +449,8 @@ events:
       - "C:/Users/luis/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/luis/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
       - "C:/Users/luis/AppData/Roaming/npm/"
+      - "C:/Users/luis/.bun/bin/"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
@@ -494,6 +516,12 @@ events:
       - "C:/Users/luis/AppData/Roaming/npm/mt.com"
       - "C:/Users/luis/AppData/Roaming/npm/mt.exe"
       - "C:/Users/luis/AppData/Roaming/npm/mt"
+      - "C:/Users/luis/.bun/bin/mt.com"
+      - "C:/Users/luis/.bun/bin/mt.exe"
+      - "C:/Users/luis/.bun/bin/mt"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/mt.com"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/mt.exe"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/mt"
@@ -521,6 +549,8 @@ events:
         - "C:\\Users\\luis\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin"
         - "C:\\Users\\luis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\luis\\.bun\\bin"
+        - "c:\\Users\\luis\\.vscode-insiders\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin\\mingit\\cmd"
   -
     kind: "find-v1"
@@ -563,6 +593,8 @@ events:
       - "C:/Users/luis/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/luis/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
       - "C:/Users/luis/AppData/Roaming/npm/"
+      - "C:/Users/luis/.bun/bin/"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
@@ -590,6 +622,8 @@ events:
         - "C:\\Users\\luis\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin"
         - "C:\\Users\\luis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\luis\\.bun\\bin"
+        - "c:\\Users\\luis\\.vscode-insiders\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin\\mingit\\cmd"
   -
     kind: "find-v1"
@@ -634,6 +668,8 @@ events:
       - "C:/Users/luis/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/luis/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
       - "C:/Users/luis/AppData/Roaming/npm/"
+      - "C:/Users/luis/.bun/bin/"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
@@ -708,6 +744,12 @@ events:
       - "C:/Users/luis/AppData/Roaming/npm/rc.com"
       - "C:/Users/luis/AppData/Roaming/npm/rc.exe"
       - "C:/Users/luis/AppData/Roaming/npm/rc"
+      - "C:/Users/luis/.bun/bin/rc.com"
+      - "C:/Users/luis/.bun/bin/rc.exe"
+      - "C:/Users/luis/.bun/bin/rc"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
+      - "C:/Users/luis/.vscode-insiders/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/rc.com"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/rc.exe"
       - "C:/Users/luis/3D Objects/flutter/flutter/bin/mingit/cmd/rc"
@@ -771,6 +813,8 @@ events:
         - "C:\\Users\\luis\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin"
         - "C:\\Users\\luis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\luis\\.bun\\bin"
+        - "c:\\Users\\luis\\.vscode-insiders\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "C:\\Users\\luis\\3D Objects\\flutter\\flutter\\bin\\mingit\\cmd"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/pi_app_desktop"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -787,8 +831,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-hm5vss"
-      binary: "C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-hm5vss"
+      source: "C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-w89pib"
+      binary: "C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-w89pib"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -798,39 +842,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-hm5vss'
+        Change Dir: 'C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-w89pib'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d161b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_90630.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         Vers├úo do MSBuild 18.4.0+6e61e96ac para .NET Framework
-        Compila├º├úo de 12/03/2026 17:03:28 iniciada.
+        Compila├º├úo de 08/04/2026 17:20:25 iniciada.
         
-        Projeto "C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-hm5vss\\cmTC_d161b.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-w89pib\\cmTC_90630.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-hm5vss\\Debug\\".
-          Criando o diret├│rio "cmTC_d161b.dir\\Debug\\cmTC_d161b.tlog\\".
+          Criando o diret├│rio "C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-w89pib\\Debug\\".
+          Criando o diret├│rio "cmTC_90630.dir\\Debug\\cmTC_90630.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_d161b.dir\\Debug\\cmTC_d161b.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_d161b.dir\\Debug\\cmTC_d161b.tlog\\unsuccessfulbuild".
+          Criando "cmTC_90630.dir\\Debug\\cmTC_90630.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_90630.dir\\Debug\\cmTC_90630.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_d161b.dir\\Debug\\\\" /Fd"cmTC_d161b.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_90630.dir\\Debug\\\\" /Fd"cmTC_90630.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.50.35726 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_d161b.dir\\Debug\\\\" /Fd"cmTC_d161b.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_90630.dir\\Debug\\\\" /Fd"cmTC_90630.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-hm5vss\\Debug\\cmTC_d161b.exe" /INCREMENTAL /ILK:"cmTC_d161b.dir\\Debug\\cmTC_d161b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-hm5vss/Debug/cmTC_d161b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-hm5vss/Debug/cmTC_d161b.lib" /MACHINE:X64  /machine:x64 cmTC_d161b.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_d161b.vcxproj -> C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-hm5vss\\Debug\\cmTC_d161b.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-w89pib\\Debug\\cmTC_90630.exe" /INCREMENTAL /ILK:"cmTC_90630.dir\\Debug\\cmTC_90630.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-w89pib/Debug/cmTC_90630.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/luis/Documents/Dev/Consultant_Project/frontend/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-w89pib/Debug/cmTC_90630.lib" /MACHINE:X64  /machine:x64 cmTC_90630.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_90630.vcxproj -> C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-w89pib\\Debug\\cmTC_90630.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_d161b.dir\\Debug\\cmTC_d161b.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_d161b.dir\\Debug\\cmTC_d161b.tlog\\cmTC_d161b.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-hm5vss\\cmTC_d161b.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_90630.dir\\Debug\\cmTC_90630.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_90630.dir\\Debug\\cmTC_90630.tlog\\cmTC_90630.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\luis\\Documents\\Dev\\Consultant_Project\\frontend\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-w89pib\\cmTC_90630.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:01.83
+        Tempo Decorrido 00:00:00.63
         
       exitCode: 0
   -

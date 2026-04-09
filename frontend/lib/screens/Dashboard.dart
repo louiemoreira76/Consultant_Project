@@ -28,20 +28,20 @@ class Dashboard extends StatelessWidget {
       body: Row(
         children: [
           // Sidebar fixa (largura 256 = w-64)
-         SizedBox(
-  width: 256,
-  child: Sidebar(
-    activeItem: 'Dashboard',
-    onNavigate: (String route) {
-      // TODO: implementar navegação entre telas
-      debugPrint('Navegar para: $route');
-    },
-    onLogout: () {
-      // TODO: implementar logout (ex: voltar para tela de login)
-      debugPrint('Logout solicitado');
-    },
-  ),
-),
+          SizedBox(
+            width: 256,
+            child: Sidebar(
+              activeItem: 'Dashboard',
+              onNavigate: (route) {
+                debugPrint('Navegar para: $route');
+                Navigator.pushReplacementNamed(context, route);
+              },
+              onLogout: () {
+                // TODO: implementar logout (ex: voltar para tela de login)
+                debugPrint('Logout solicitado');
+              },
+            ),
+          ),
           // Conteúdo principal (expande)
           Expanded(
             child: Column(
@@ -56,66 +56,63 @@ class Dashboard extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         // Linha de KPIs (4 cards)
-                        GridView.count(
-                          crossAxisCount: 4,
-                          crossAxisSpacing: 24, // gap-6
-                          mainAxisSpacing: 24,
-                          shrinkWrap: true,
-                          physics: const NeverScrollableScrollPhysics(),
-                          childAspectRatio: 1.2, // Ajuste conforme necessário
+                        Row(
                           children: [
-                            KPICard(
-                              title: 'Total de Mentorados',
-                              value: '247',
-                              icon: Icons.people_outline,
-                              trend: Trend.up,
-                              trendValue: '+12% este mês',
+                            Expanded(
+                              child: KPICard(
+                                title: 'Total de Mentorados',
+                                value: '247',
+                                icon: Icons.people_outline,
+                                trend: Trend.up,
+                                trendValue: '+12% este mês',
+                              ),
                             ),
-                            KPICard(
-                              title: 'Taxa de Engajamento',
-                              value: '85%',
-                              icon: Icons.trending_up,
-                              trend: Trend.up,
-                              trendValue: '+5.2%',
-                              showChart: true,
-                              chartData: engagementData,
+                            const SizedBox(width: 24),
+                            Expanded(
+                              child: KPICard(
+                                title: 'Taxa de Engajamento',
+                                value: '85%',
+                                icon: Icons.trending_up,
+                                trend: Trend.up,
+                                trendValue: '+5.2%',
+                                showChart: true,
+                                chartData: engagementData,
+                              ),
                             ),
-                            KPICard(
-                              title: 'Aulas Assistidas (Hoje)',
-                              value: '142',
-                              icon: Icons.play_arrow_outlined,
-                              trend: Trend.up,
-                              trendValue: '+18',
+                            const SizedBox(width: 24),
+                            Expanded(
+                              child: KPICard(
+                                title: 'Aulas Assistidas (Hoje)',
+                                value: '142',
+                                icon: Icons.play_arrow_outlined,
+                                trend: Trend.up,
+                                trendValue: '+18',
+                              ),
                             ),
-                            KPICard(
-                              title: 'Dúvidas Pendentes',
-                              value: '8',
-                              icon: Icons.message_outlined,
-                              alert: true,
+                            const SizedBox(width: 24),
+                            Expanded(
+                              child: KPICard(
+                                title: 'Dúvidas Pendentes',
+                                value: '8',
+                                icon: Icons.message_outlined,
+                                alert: true,
+                              ),
                             ),
                           ],
                         ),
                         const SizedBox(height: 32), // mb-8
-
                         // Linha com StudentTable (2/3) e TrailCards (1/3)
                         Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             // StudentTable - ocupa 2/3 da largura
-                            const Expanded(
-                              flex: 2,
-                              child: StudentTable(),
-                            ),
+                            const Expanded(flex: 2, child: StudentTable()),
                             const SizedBox(width: 24), // gap-6
                             // TrailCards - ocupa 1/3 da largura
-                            const Expanded(
-                              flex: 1,
-                              child: TrailCards(),
-                            ),
+                            const Expanded(flex: 1, child: TrailCards()),
                           ],
                         ),
                         const SizedBox(height: 32), // mb-8
-
                         // ChatWidget com largura máxima limitada (max-w-2xl ≈ 672px)
                         ConstrainedBox(
                           constraints: const BoxConstraints(maxWidth: 672),
